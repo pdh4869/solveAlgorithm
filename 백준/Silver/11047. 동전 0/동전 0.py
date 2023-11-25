@@ -1,9 +1,9 @@
 import sys
-n,k = map(int, sys.stdin.readline().split())
+n,k = map(int, input().split())
 l = []
 
 for i in range(n):
-    l.append(int(sys.stdin.readline()))
+    l.append(int(input()))
     
 l.sort(reverse=True)
 cnt = 0
