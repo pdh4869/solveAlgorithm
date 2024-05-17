@@ -1,7 +1,8 @@
+def facto(n):
+    if n == 0:
+        return 1
+    
+    return n * facto(n-1)
+
 n = int(input())
-
-def factorial(x):
-    if x <= 1: return 1
-    return x * factorial(x-1)
-
-print(factorial(n))
+print(facto(n))
